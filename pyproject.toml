@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xiuxian-core"
+version = "0.0.1"
+description = ""
+authors = ["QingMU <1242550160@qq.com>"]
+readme = "README.md"
+packages = [{include = "xiuxian_core"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
